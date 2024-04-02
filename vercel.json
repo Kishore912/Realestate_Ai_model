@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "price_prediction/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "price_prediction/wsgi.py"
+      }
+    ]
+}

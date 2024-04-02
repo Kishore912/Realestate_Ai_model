@@ -20,5 +20,5 @@ from price_prediction import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('predict/',views.predict,name='predict'),
+    path('',views.predict,name='predict'),
 ]

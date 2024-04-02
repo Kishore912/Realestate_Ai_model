@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color:white;
+
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+#navbar ul{
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+    
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#navbar{
+    height: 5vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    border: 2px solid black;
+    
+    
+}
+
+#cover_image img{
+    height: 60vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:10px 30rem;
+    
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black ;
+}
+
+td{
+    padding: 15px;
+}
+
+button{
+    margin-left: 330px;
+    width: 10vw;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+    color: red;
+}
+
+
+
+.img{
+    width: 20vw;
+    height: 25vh;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+#whole-gallery{
+    display: flex;
+    overflow: auto;
+}
+
+.gallery{
+    margin-right: 30px;
+    div{
+        overflow: hidden;
+}
+
+}
+    
+#logo{
+    color: brown;
+    font-size: 25px;
+ 
+    
+}
+
+#details{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#service{
+    margin-left: 50px;
+}
+
+#contact{
+    margin-right: 50px;
+}
+
+#about h3{
+    text-align: center;
+}
+
+#about p{
+    color: black;
+    margin: 0 3vw;
+}
