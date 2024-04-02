@@ -10,9 +10,9 @@ class HousePricePredictor:
 
     def load_model_and_columns(self):
         print("Loading saved artifacts...")
-        with open("E:/django/Realstate/house_prices/price_prediction/models/columns.json", "r") as f:
+        with open("D:/kishore/Django/Real_estate_AI_Model/house_prices/price_prediction/models/columns.json", "r") as f:
             self.__data_columns = json.load(f)['data_columns']
-        with open("E:/django/Realstate/house_prices/price_prediction/models/bangalore_home_prices_model.pickle", "rb") as f:
+        with open("D:/kishore/Django/Real_estate_AI_Model/house_prices/price_prediction/models/bangalore_home_prices_model.pickle", "rb") as f:
             self.__model = pickle.load(f)
         print("Loading saved artifacts... done")
 
